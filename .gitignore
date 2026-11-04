@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+# generated index (rebuilt from the PDFs); keep the folder itself
+vector_store/saved_index/*
+!vector_store/saved_index/.gitkeep
+tests/evaluation_results.csv

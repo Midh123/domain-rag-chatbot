@@ -1,0 +1,17 @@
+# CPU-only PyTorch keeps the install small (important for Streamlit Cloud / Docker)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+pypdf
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+langchain-groq
+sentence-transformers
+faiss-cpu
+streamlit
+python-dotenv
+pandas
+numpy
+pytest
