@@ -1,0 +1,20 @@
+id,question,type,expected_source,expected_page,expected_keyword
+1,How many days of paid annual leave do employees get?,answerable,Employee_Handbook.pdf,2,18 days
+2,What are the standard working hours?,answerable,Employee_Handbook.pdf,1,9:30
+3,How many days of paid sick leave do employees get per year?,answerable,Employee_Handbook.pdf,2,8 days
+4,When are salaries paid?,answerable,Employee_Handbook.pdf,3,last working day
+5,What is the notice period for permanent employees?,answerable,Employee_Handbook.pdf,4,60 days
+6,How much is the health insurance coverage limit?,answerable,Employee_Handbook.pdf,3,"500,000"
+7,How often must passwords be changed?,answerable,IT_Security_Policy.pdf,1,90 days
+8,Within how many hours must a lost laptop be reported?,answerable,IT_Security_Policy.pdf,3,24 hours
+9,What is the daily meal allowance for domestic travel?,answerable,Travel_and_Expense_Policy.pdf,2,"1,500"
+10,What is the hotel limit per night in metro cities?,answerable,Travel_and_Expense_Policy.pdf,2,"6,000"
+11,Within how many days must expense claims be submitted?,answerable,Travel_and_Expense_Policy.pdf,3,15 days
+12,How many weeks of leave does a new mother get?,paraphrased,Employee_Handbook.pdf,2,26 weeks
+13,Can I copy office files to my own pen drive?,paraphrased,IT_Security_Policy.pdf,2,cloud
+14,Who has to approve business class for a very long flight?,paraphrased,Travel_and_Expense_Policy.pdf,1,vice president
+15,Do I get money for leave I did not use when I quit?,paraphrased,Employee_Handbook.pdf,4,encash
+16,Who is the CEO of Sunrise Tech?,unavailable,Not available,,
+17,What is the company's current stock price?,unavailable,Not available,,
+18,Does the company provide free lunch in the cafeteria?,unavailable,Not available,,
+19,What is the dress code for employees?,unavailable,Not available,,
