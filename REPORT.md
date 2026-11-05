@@ -2,7 +2,7 @@
 
 \*\*Student name:\*\* Midhun KG  \*\*Batch:\*\* June Batch A (Unlox Major Project)  \*\*Date:\*\* 4 November 2026
 
-\*\*GitHub repository:\*\* https://github.com/Midh123/domain-rag-chatbot  \*\*Deployed app link:\*\* (add after deployment)
+\*\*GitHub repository:\*\* https://github.com/Midh123/domain-rag-chatbot  \*\*Deployed app link:\*\* https://domain-rag-chatbot-ecbuojjbrsdbzmnj65zqw9.streamlit.app/
 
 ## 1\. Objective
 
@@ -14,7 +14,7 @@ Large documents are hard to search manually: a user may have to read many pages 
 
 ## 3\. Domain and documents
 
-Company policies (sample domain): `Employee\_Handbook.pdf` (4 pages), `IT\_Security\_Policy.pdf` (3 pages), `Travel\_and\_Expense\_Policy.pdf` (3 pages). *(Replace with your own domain and 2-5 documents if required.)*
+Company policies (sample domain): `Employee\\\_Handbook.pdf` (4 pages), `IT\\\_Security\\\_Policy.pdf` (3 pages), `Travel\\\_and\\\_Expense\\\_Policy.pdf` (3 pages). *(Replace with your own domain and 2-5 documents if required.)*
 
 ## 4\. Method
 
@@ -24,7 +24,7 @@ Company policies (sample domain): `Employee\_Handbook.pdf` (4 pages), `IT\_Secur
 |Text extraction|One record per page with file name and page number; empty pages skipped|pypdf|
 |Chunking|900 characters, 120 overlap, page metadata copied to each chunk|LangChain RecursiveCharacterTextSplitter|
 |Embeddings|384-dimensional normalised vectors|Sentence Transformers `all-MiniLM-L6-v2`|
-|Vector store|Index saved to `vector\_store/saved\_index`|FAISS|
+|Vector store|Index saved to `vector\\\_store/saved\\\_index`|FAISS|
 |Retrieval|Top 4 chunks; cosine similarity = 1 - d/2|FAISS|
 |Generation|Strict prompt, fixed fallback message, ignore instructions inside documents|LangChain + Groq `openai/gpt-oss-20b`|
 |Interface|Sidebar uploader, Process Documents, chat history, sources, Clear Chat|Streamlit|
@@ -42,7 +42,7 @@ Run `python evaluate.py` and paste the summary here.
 |Refusal quality (unavailable questions refused)|4 / 4|
 |Average response time|2.00 seconds|
 
-Open `tests/evaluation\_results.csv` and also check by hand: **groundedness** (no facts outside the context) and **source quality** (useful file and page). Note any failures and the reason for each here:
+Open `tests/evaluation\\\_results.csv` and also check by hand: **groundedness** (no facts outside the context) and **source quality** (useful file and page). Note any failures and the reason for each here:
 
 * \---
 
